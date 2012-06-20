@@ -128,19 +128,12 @@ div.wrapper {
   @include background-size(cover);
   height: 800px;
   overflow: hidden;
-  position: relative;
 }
 
-.banner-caption {
-  background: #000;
-  background: rgba(0,0,0,0.75);
-  top: 30px;
-  color: $neutral;
-  padding: 15px 0;
-  position: absolute;
-  right: 0;
+.brand {
+  background: url(../images/dark_leather.png) repeat;
+  top: 0;
   text-align: center;
-  width: 42.5531915%;
 }
 
 

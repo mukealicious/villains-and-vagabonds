@@ -188,17 +188,10 @@ div.wrapper {
   -o-background-size: cover;
   background-size: cover;
   height: 800px;
-  overflow: hidden;
-  position: relative; }
+  overflow: hidden; }
 
-/* line 134, ../sass/screen.scss */
-.banner-caption {
-  background: #000;
-  background: rgba(0, 0, 0, 0.75);
-  top: 30px;
-  color: #eeeeee;
-  padding: 15px 0;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  width: 42.5531915%; }
+/* line 133, ../sass/screen.scss */
+.brand {
+  background: url(../images/dark_leather.png) repeat;
+  top: 0;
+  text-align: center; }
