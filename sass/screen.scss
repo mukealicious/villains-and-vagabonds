@@ -82,6 +82,18 @@ a:hover {
   line-height: 1;
 }
 
+.cred {
+  font-size: .7em;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+  a {
+    font-weight: bold;
+    color: inherit;
+  }
+}
 
 /* --------------------------------------------------------------------
    Layout
@@ -116,6 +128,10 @@ div.wrapper {
   padding: 60px 0 70px;
 }
 
+footer {
+  background: url(../images/dark_leather.png) repeat;
+  height: 300px;
+}
 
 /* --------------------------------------------------------------------
    Sections

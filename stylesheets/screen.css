@@ -143,10 +143,23 @@ a:hover {
   border-bottom: 10px solid #dcc270;
   line-height: 1; }
 
+/* line 85, ../sass/screen.scss */
+.cred {
+  font-size: .7em;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  bottom: 8px;
+  right: 20px; }
+  /* line 92, ../sass/screen.scss */
+  .cred a {
+    font-weight: bold;
+    color: inherit; }
+
 /* --------------------------------------------------------------------
    Layout
 -------------------------------------------------------------------- */
-/* line 90, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .group:after {
   clear: both;
   content: " ";
@@ -155,30 +168,35 @@ a:hover {
   height: 0;
   visibility: hidden; }
 
-/* line 99, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 .cleaner {
   clear: both;
   font-size: 1px; }
 
-/* line 104, ../sass/screen.scss */
+/* line 116, ../sass/screen.scss */
 .site {
   margin: 0 auto; }
 
-/* line 108, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
 .stripe {
   width: 100%; }
 
-/* line 112, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 div.wrapper {
   width: 80%;
   max-width: 1300px;
   margin: 0 auto;
   padding: 60px 0 70px; }
 
+/* line 131, ../sass/screen.scss */
+footer {
+  background: url(../images/dark_leather.png) repeat;
+  height: 300px; }
+
 /* --------------------------------------------------------------------
    Sections
 -------------------------------------------------------------------- */
-/* line 124, ../sass/screen.scss */
+/* line 140, ../sass/screen.scss */
 .banner {
   background: url(../images/vvgirlbg.jpg) no-repeat;
   background-position-y: 30%;
@@ -190,7 +208,7 @@ div.wrapper {
   overflow: hidden;
   position: relative; }
 
-/* line 133, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 .banner-tag {
   background: url(../images/dark_leather.png) repeat;
   top: -5px;
@@ -206,6 +224,6 @@ div.wrapper {
   -moz-box-shadow: #333333 0px 2px 3px;
   box-shadow: #333333 0px 2px 3px; }
 
-/* line 143, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .bio img {
   margin-bottom: 1em; }
