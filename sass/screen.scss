@@ -80,7 +80,6 @@ a:hover {
 .bar {
   border-bottom: 10px solid $pop;
   line-height: 1;
-  margin-bottom: .5em;
 }
 
 
@@ -141,6 +140,6 @@ div.wrapper {
   @include box-shadow(#333 0px 2px 3px);
 }
 
-
-
-
+.bio img {
+  margin-bottom: 1em;
+}

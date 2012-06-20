@@ -141,13 +141,12 @@ a:hover {
 /* line 80, ../sass/screen.scss */
 .bar {
   border-bottom: 10px solid #dcc270;
-  line-height: 1;
-  margin-bottom: .5em; }
+  line-height: 1; }
 
 /* --------------------------------------------------------------------
    Layout
 -------------------------------------------------------------------- */
-/* line 91, ../sass/screen.scss */
+/* line 90, ../sass/screen.scss */
 .group:after {
   clear: both;
   content: " ";
@@ -156,20 +155,20 @@ a:hover {
   height: 0;
   visibility: hidden; }
 
-/* line 100, ../sass/screen.scss */
+/* line 99, ../sass/screen.scss */
 .cleaner {
   clear: both;
   font-size: 1px; }
 
-/* line 105, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .site {
   margin: 0 auto; }
 
-/* line 109, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .stripe {
   width: 100%; }
 
-/* line 113, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 div.wrapper {
   width: 80%;
   max-width: 1300px;
@@ -179,7 +178,7 @@ div.wrapper {
 /* --------------------------------------------------------------------
    Sections
 -------------------------------------------------------------------- */
-/* line 125, ../sass/screen.scss */
+/* line 124, ../sass/screen.scss */
 .banner {
   background: url(../images/vvgirlbg.jpg) no-repeat;
   background-position-y: 30%;
@@ -191,7 +190,7 @@ div.wrapper {
   overflow: hidden;
   position: relative; }
 
-/* line 134, ../sass/screen.scss */
+/* line 133, ../sass/screen.scss */
 .banner-tag {
   background: url(../images/dark_leather.png) repeat;
   top: -5px;
@@ -206,3 +205,7 @@ div.wrapper {
   -webkit-box-shadow: #333333 0px 2px 3px;
   -moz-box-shadow: #333333 0px 2px 3px;
   box-shadow: #333333 0px 2px 3px; }
+
+/* line 143, ../sass/screen.scss */
+.bio img {
+  margin-bottom: 1em; }
