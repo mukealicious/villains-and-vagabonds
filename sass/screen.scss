@@ -12,6 +12,12 @@
 
 /* ---- Base ---- */
 
+* { 
+   -webkit-box-sizing: border-box; 
+   -moz-box-sizing:    border-box; 
+   box-sizing:         border-box; 
+}
+
 html {
 	background: $light;
 	font-size: 21px;
@@ -51,7 +57,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1em; /* 21px/21px */
+  font-size: 1.25em; /* 26.25px/21px */
 }
 
 a {
@@ -121,16 +127,38 @@ a:hover {
   width: 100%;
 }
 
+.box {
+  float: left;
+  width: 33%;
+}
+
 div.wrapper {
   width: 80%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 60px 0 70px;
+  padding: 60px 0 70px 0;
 }
+
+div.inner {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1em 0 3em 0;
+}
+
 
 footer {
   background: url(../images/dark_leather.png) repeat;
-  height: 300px;
+  color: $neutral;
+  h4 {
+    margin-bottom: 0.3em;
+    text-transform: uppercase;
+  }
+  ul li {
+    font-style: italic;
+    padding-left: 0.25em;
+    line-height: 1.5;
+  }
 }
 
 /* --------------------------------------------------------------------
@@ -159,3 +187,34 @@ footer {
 .bio img {
   margin-bottom: 1em;
 }
+
+.contact, .social {
+  padding-right: 1em;
+}
+
+.mail {
+  padding-left: 1em;
+}
+
+/* Newsletter Signup Form */
+#mc-embedded-subscribe-form input[type="text"], #mc-embedded-subscribe-form input[type="email"] { 
+  width: 96%;
+  padding: 8px 8px;
+  margin-bottom: 10px;
+  @include border-radius(5px);
+}
+
+#mc-embedded-subscribe {
+  background-color: $neutral;
+  color: $dark;
+  font-family: serif;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
+  @include border-radius(5px);
+
+}
+
+#mc-embedded-subscribe:hover {
+  background-color: $pop;
+}
+

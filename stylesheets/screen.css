@@ -70,66 +70,72 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 -------------------------------------------------------------------- */
 /* ---- Base ---- */
 /* line 15, ../sass/screen.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 21, ../sass/screen.scss */
 html {
   background: white;
   font-size: 21px;
   -webkit-font-smoothing: antialiased; }
 
-/* line 21, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 body {
   font-family: "Adobe Garamond Pro", serif;
   font-size: 100%;
   color: #1a1a1a; }
 
-/* line 27, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 p {
   line-height: 1.5; }
 
-/* line 31, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 img {
   max-width: 100%; }
 
 /* --- Typography --- */
-/* line 37, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 h1, h2, h3, h4 {
   font-family: "League Gothic"; }
 
-/* line 41, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 h1 {
   font-size: 3.8em;
   /* 80px/21px */ }
 
-/* line 45, ../sass/screen.scss */
+/* line 51, ../sass/screen.scss */
 h2 {
   font-size: 2.380952381em;
   /* 50px/21px */ }
 
-/* line 49, ../sass/screen.scss */
+/* line 55, ../sass/screen.scss */
 h3 {
   font-size: 1.904761905em;
   /* 40px/21px */ }
 
-/* line 53, ../sass/screen.scss */
+/* line 59, ../sass/screen.scss */
 h4 {
-  font-size: 1em;
-  /* 21px/21px */ }
+  font-size: 1.25em;
+  /* 26.25px/21px */ }
 
-/* line 57, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 a {
   color: #dcc270;
   text-decoration: none; }
 
-/* line 62, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 a:hover {
   color: #d2b147;
   text-decoration: underline; }
 
-/* line 67, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 ::selection {
   background: #dcc270;
   /* Safari */ }
 
-/* line 70, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 ::-moz-selection {
   background: #dcc270;
   /* Firefox */ }
@@ -138,12 +144,12 @@ a:hover {
    Elements
 -------------------------------------------------------------------- */
 /* --- Typography --- */
-/* line 80, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .bar {
   border-bottom: 10px solid #dcc270;
   line-height: 1; }
 
-/* line 85, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .cred {
   font-size: .7em;
   font-style: italic;
@@ -151,7 +157,7 @@ a:hover {
   position: absolute;
   bottom: 8px;
   right: 20px; }
-  /* line 92, ../sass/screen.scss */
+  /* line 98, ../sass/screen.scss */
   .cred a {
     font-weight: bold;
     color: inherit; }
@@ -159,7 +165,7 @@ a:hover {
 /* --------------------------------------------------------------------
    Layout
 -------------------------------------------------------------------- */
-/* line 102, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .group:after {
   clear: both;
   content: " ";
@@ -168,35 +174,56 @@ a:hover {
   height: 0;
   visibility: hidden; }
 
-/* line 111, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .cleaner {
   clear: both;
   font-size: 1px; }
 
-/* line 116, ../sass/screen.scss */
+/* line 122, ../sass/screen.scss */
 .site {
   margin: 0 auto; }
 
-/* line 120, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 .stripe {
   width: 100%; }
 
-/* line 124, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
+.box {
+  float: left;
+  width: 33%; }
+
+/* line 135, ../sass/screen.scss */
 div.wrapper {
   width: 80%;
   max-width: 1300px;
   margin: 0 auto;
-  padding: 60px 0 70px; }
+  padding: 60px 0 70px 0; }
 
-/* line 131, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
+div.inner {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 1em 0 3em 0; }
+
+/* line 150, ../sass/screen.scss */
 footer {
   background: url(../images/dark_leather.png) repeat;
-  height: 300px; }
+  color: #dddddd; }
+  /* line 153, ../sass/screen.scss */
+  footer h4 {
+    margin-bottom: 0.3em;
+    text-transform: uppercase; }
+  /* line 157, ../sass/screen.scss */
+  footer ul li {
+    font-style: italic;
+    padding-left: 0.25em;
+    line-height: 1.5; }
 
 /* --------------------------------------------------------------------
    Sections
 -------------------------------------------------------------------- */
-/* line 140, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 .banner {
   background: url(../images/vvgirlbg.jpg) no-repeat;
   background-position-y: 30%;
@@ -208,7 +235,7 @@ footer {
   overflow: hidden;
   position: relative; }
 
-/* line 149, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .banner-tag {
   background: url(../images/dark_leather.png) repeat;
   top: -5px;
@@ -224,6 +251,43 @@ footer {
   -moz-box-shadow: #333333 0px 2px 3px;
   box-shadow: #333333 0px 2px 3px; }
 
-/* line 159, ../sass/screen.scss */
+/* line 187, ../sass/screen.scss */
 .bio img {
   margin-bottom: 1em; }
+
+/* line 191, ../sass/screen.scss */
+.contact, .social {
+  padding-right: 1em; }
+
+/* line 195, ../sass/screen.scss */
+.mail {
+  padding-left: 1em; }
+
+/* Newsletter Signup Form */
+/* line 200, ../sass/screen.scss */
+#mc-embedded-subscribe-form input[type="text"], #mc-embedded-subscribe-form input[type="email"] {
+  width: 96%;
+  padding: 8px 8px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 207, ../sass/screen.scss */
+#mc-embedded-subscribe {
+  background-color: #dddddd;
+  color: #1a1a1a;
+  font-family: serif;
+  font-size: 0.75em;
+  padding: 0.5em 1em;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px; }
+
+/* line 217, ../sass/screen.scss */
+#mc-embedded-subscribe:hover {
+  background-color: #dcc270; }
