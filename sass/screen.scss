@@ -1,0 +1,148 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "base";
+
+
+/* --------------------------------------------------------------------
+   Global
+-------------------------------------------------------------------- */
+
+/* ---- Base ---- */
+
+html {
+	background: $light;
+	font-size: 21px;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: "Adobe Garamond Pro", serif;
+	font-size: 100%;
+  color: $dark;
+}
+
+p {
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* --- Typography --- */
+
+h1, h2, h3, h4, {
+  font-family: "League Gothic";
+}
+
+h1 {
+  font-size: 3.8em; /* 80px/21px */
+}
+
+h2 {
+  font-size: 2.380952381em; /* 50px/21px */
+}
+
+h3 {
+  font-size: 1.904761905em; /* 40px/21px */
+}
+
+h4 {
+  font-size: 1em; /* 21px/21px */
+}
+
+a {
+  color: $pop;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darken($pop, 10%);
+  text-decoration: underline;
+}
+
+::selection {
+  background: $pop; /* Safari */
+  }
+::-moz-selection {
+  background: $pop; /* Firefox */
+}
+
+/* --------------------------------------------------------------------
+   Elements
+-------------------------------------------------------------------- */
+
+/* --- Typography --- */
+
+.bar {
+  border-bottom: 10px solid $pop;
+  line-height: 1;
+  margin-bottom: .5em;
+}
+
+
+/* --------------------------------------------------------------------
+   Layout
+-------------------------------------------------------------------- */
+
+.group:after { 
+  clear: both;
+  content: " "; 
+  display: block; 
+  font-size: 0; 
+  height: 0;
+  visibility: hidden;
+}
+
+.cleaner {
+  clear: both;
+  font-size: 1px;
+}
+
+.site {
+  margin: 0 auto;
+}
+
+.stripe {
+  width: 100%;
+}
+
+div.wrapper {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 0 70px;
+}
+
+
+/* --------------------------------------------------------------------
+   Sections
+-------------------------------------------------------------------- */
+
+.banner {
+  background: url(../images/vvgirlbg.jpg) no-repeat;
+  background-position-y: 30%;
+  @include background-size(cover);
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-caption {
+  background: #000;
+  background: rgba(0,0,0,0.75);
+  top: 30px;
+  color: $neutral;
+  padding: 15px 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 42.5531915%;
+}
+
+
+
+

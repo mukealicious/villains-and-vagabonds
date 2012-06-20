@@ -1,0 +1,204 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+body {
+  line-height: 1; }
+
+/* line 22, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 24, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 28, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 101, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 114, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* Colors */
+/* Shadows */
+/* Mixins */
+/* --------------------------------------------------------------------
+   Global
+-------------------------------------------------------------------- */
+/* ---- Base ---- */
+/* line 15, ../sass/screen.scss */
+html {
+  background: white;
+  font-size: 21px;
+  -webkit-font-smoothing: antialiased; }
+
+/* line 21, ../sass/screen.scss */
+body {
+  font-family: "Adobe Garamond Pro", serif;
+  font-size: 100%;
+  color: #1a1a1a; }
+
+/* line 27, ../sass/screen.scss */
+p {
+  line-height: 1.5; }
+
+/* line 31, ../sass/screen.scss */
+img {
+  max-width: 100%; }
+
+/* --- Typography --- */
+/* line 37, ../sass/screen.scss */
+h1, h2, h3, h4 {
+  font-family: "League Gothic"; }
+
+/* line 41, ../sass/screen.scss */
+h1 {
+  font-size: 3.8em;
+  /* 80px/21px */ }
+
+/* line 45, ../sass/screen.scss */
+h2 {
+  font-size: 2.380952381em;
+  /* 50px/21px */ }
+
+/* line 49, ../sass/screen.scss */
+h3 {
+  font-size: 1.904761905em;
+  /* 40px/21px */ }
+
+/* line 53, ../sass/screen.scss */
+h4 {
+  font-size: 1em;
+  /* 21px/21px */ }
+
+/* line 57, ../sass/screen.scss */
+a {
+  color: #dcc270;
+  text-decoration: none; }
+
+/* line 62, ../sass/screen.scss */
+a:hover {
+  color: #d2b147;
+  text-decoration: underline; }
+
+/* line 67, ../sass/screen.scss */
+::selection {
+  background: #dcc270;
+  /* Safari */ }
+
+/* line 70, ../sass/screen.scss */
+::-moz-selection {
+  background: #dcc270;
+  /* Firefox */ }
+
+/* --------------------------------------------------------------------
+   Elements
+-------------------------------------------------------------------- */
+/* --- Typography --- */
+/* line 80, ../sass/screen.scss */
+.bar {
+  border-bottom: 10px solid #dcc270;
+  line-height: 1;
+  margin-bottom: .5em; }
+
+/* --------------------------------------------------------------------
+   Layout
+-------------------------------------------------------------------- */
+/* line 91, ../sass/screen.scss */
+.group:after {
+  clear: both;
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden; }
+
+/* line 100, ../sass/screen.scss */
+.cleaner {
+  clear: both;
+  font-size: 1px; }
+
+/* line 105, ../sass/screen.scss */
+.site {
+  margin: 0 auto; }
+
+/* line 109, ../sass/screen.scss */
+.stripe {
+  width: 100%; }
+
+/* line 113, ../sass/screen.scss */
+div.wrapper {
+  width: 80%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 60px 0 70px; }
+
+/* --------------------------------------------------------------------
+   Sections
+-------------------------------------------------------------------- */
+/* line 125, ../sass/screen.scss */
+.banner {
+  background: url(../images/vvgirlbg.jpg) no-repeat;
+  background-position-y: 30%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
+  overflow: hidden;
+  position: relative; }
+
+/* line 134, ../sass/screen.scss */
+.banner-caption {
+  background: #000;
+  background: rgba(0, 0, 0, 0.75);
+  top: 30px;
+  color: #eeeeee;
+  padding: 15px 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 42.5531915%; }
