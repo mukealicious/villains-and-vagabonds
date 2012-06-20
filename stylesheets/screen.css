@@ -259,21 +259,22 @@ footer {
 /* line 191, ../sass/screen.scss */
 .bio span {
   font-family: "reklame-script", georgia, serif;
+  font-size: 2.2em;
   margin-top: 0.75em;
   display: block;
   clear: both;
   float: left; }
 
-/* line 199, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .contact, .social {
   padding-right: 1em; }
 
-/* line 203, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 .mail {
   padding-left: 1em; }
 
 /* Newsletter Signup Form */
-/* line 208, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 #mc-embedded-subscribe-form input[type="text"], #mc-embedded-subscribe-form input[type="email"] {
   width: 96%;
   padding: 8px 8px;
@@ -284,7 +285,7 @@ footer {
   -o-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 215, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 #mc-embedded-subscribe {
   background-color: #dddddd;
   color: #1a1a1a;
@@ -297,6 +298,6 @@ footer {
   -o-border-radius: 5px;
   border-radius: 5px; }
 
-/* line 225, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 #mc-embedded-subscribe:hover {
   background-color: #dcc270; }
