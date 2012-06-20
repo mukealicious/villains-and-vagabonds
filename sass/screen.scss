@@ -131,16 +131,14 @@ div.wrapper {
   position: relative;
 }
 
-.banner-caption {
-  background: #000;
-  background: rgba(0,0,0,0.75);
-  top: 30px;
-  color: $neutral;
-  padding: 15px 0;
+.banner-tag {
+  background: url(../images/dark_leather.png) repeat;
+  top: -5px;
+  right: 10%;
   position: absolute;
-  right: 0;
   text-align: center;
-  width: 42.5531915%;
+  @include border-radius(8px);
+  @include box-shadow(#333 0px 2px 3px);
 }
 
 

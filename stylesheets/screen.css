@@ -192,13 +192,17 @@ div.wrapper {
   position: relative; }
 
 /* line 134, ../sass/screen.scss */
-.banner-caption {
-  background: #000;
-  background: rgba(0, 0, 0, 0.75);
-  top: 30px;
-  color: #eeeeee;
-  padding: 15px 0;
+.banner-tag {
+  background: url(../images/dark_leather.png) repeat;
+  top: -5px;
+  right: 10%;
   position: absolute;
-  right: 0;
   text-align: center;
-  width: 42.5531915%; }
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: #333333 0px 2px 3px;
+  -moz-box-shadow: #333333 0px 2px 3px;
+  box-shadow: #333333 0px 2px 3px; }
