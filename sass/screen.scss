@@ -188,6 +188,14 @@ footer {
   margin-bottom: 1em;
 }
 
+.bio span {
+  font-family: $hand;
+  margin-top: 0.75em;
+  display: block;
+  clear: both;
+  float:left;
+}
+
 .contact, .social {
   padding-right: 1em;
 }
