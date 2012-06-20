@@ -227,3 +227,19 @@ footer {
   background-color: $pop;
 }
 
+/* --------------------------------------------------------------------
+   Media Queries
+-------------------------------------------------------------------- */
+
+/* < 720px */
+
+@media screen and (max-width: 720px) {
+  .banner-tag {
+    width: 100%;
+    right: 0;
+  }
+  .banner {
+    height: 500px;
+  }
+}
+

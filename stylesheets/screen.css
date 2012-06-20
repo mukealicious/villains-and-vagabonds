@@ -301,3 +301,17 @@ footer {
 /* line 226, ../sass/screen.scss */
 #mc-embedded-subscribe:hover {
   background-color: #dcc270; }
+
+/* --------------------------------------------------------------------
+   Media Queries
+-------------------------------------------------------------------- */
+/* < 720px */
+@media screen and (max-width: 720px) {
+  /* line 237, ../sass/screen.scss */
+  .banner-tag {
+    width: 100%;
+    right: 0; }
+
+  /* line 241, ../sass/screen.scss */
+  .banner {
+    height: 500px; } }
