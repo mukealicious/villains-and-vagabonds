@@ -62,6 +62,7 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+/* Fonts */
 /* Colors */
 /* Shadows */
 /* Mixins */
@@ -83,7 +84,7 @@ html {
 
 /* line 27, ../sass/screen.scss */
 body {
-  font-family: "Adobe Garamond Pro", serif;
+  font-family: "adobe-garamond-pro", georgia, serif;
   font-size: 100%;
   color: #1a1a1a; }
 
@@ -98,7 +99,7 @@ img {
 /* --- Typography --- */
 /* line 43, ../sass/screen.scss */
 h1, h2, h3, h4 {
-  font-family: "League Gothic"; }
+  font-family: "league-gothic", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif; }
 
 /* line 47, ../sass/screen.scss */
 h1 {

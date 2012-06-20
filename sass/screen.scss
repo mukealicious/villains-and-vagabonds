@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	font-family: "Adobe Garamond Pro", serif;
+	font-family: $serif;
 	font-size: 100%;
   color: $dark;
 }
@@ -41,7 +41,7 @@ img {
 /* --- Typography --- */
 
 h1, h2, h3, h4, {
-  font-family: "League Gothic";
+  font-family: $sans-serif;
 }
 
 h1 {

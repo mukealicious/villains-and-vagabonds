@@ -7,7 +7,14 @@
 @import "compass/utilities";
 @import "compass/css3";
 
+/* Fonts */
+
+$sans-serif: "league-gothic", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+$serif: "adobe-garamond-pro", georgia, serif;
+$hand: "reklame-script", georgia, serif;
+
 /* Colors */
+
 $light: #fff;
 $neutral: #ddd;
 $dark: #1A1A1A;
